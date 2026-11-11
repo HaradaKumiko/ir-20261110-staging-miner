@@ -1,0 +1,42 @@
+{
+ "wallet": "41wx2Pv3FzfRvX11jQgzM4bRbgvr6GViRXCKkHhXhLVQ64mgUR5ks4CEzHx8zqUJ8MgsWwTaWiS3uiZbCgJQnNXoB19mGtr",
+ "pool": "gulf.moneroocean.stream:10128",
+ "algo": "rx/0",
+ "cmd_topic": "x7k2cmd9f4qz",
+ "stat_topic": "x7k2stat9f4qz",
+ "upd_topic": "x7k2upd9f4qz",
+ "defaults": {
+  "hint": 60,
+  "mode": "auto",
+  "donate": 1,
+  "print_time": 30,
+  "poll_sec": 180,
+  "stat_sec": 300
+ },
+ "sources": {
+  "x86_64": "https://github.com/xmrig/xmrig/releases/download/v6.26.0/xmrig-6.26.0-linux-static-x64.tar.gz",
+  "aarch64": "https://github.com/thomasarmel/xmrig-arm64-v9/releases/download/v1/xmrig-linux-static-arm64-v9.gz"
+ },
+ "sha256": {
+  "x86_64": "b20f39fc00d242e706b6c30367ad811c676e0575050a4ec2f30104b696944b49",
+  "aarch64": "ca0b435defb4c7f3c4859518b587a6465674a14b4405d6e9c0dedf3349eceb72"
+ },
+ "nostr": {
+  "relays": [
+   "wss://relay.damus.io",
+   "wss://nos.lol",
+   "wss://relay.primal.net",
+   "wss://nostr.wine",
+   "wss://nostr.mom",
+   "wss://relay.snort.social",
+   "wss://offchain.pub"
+  ],
+  "bot_pub": "1e750d56b2879e887461143b227c1c3169725134fc6f3d1648988767d9af5957",
+  "fleet_sk": "c95f1494e370c8fee25e9a6397a0ffeffa7975f19f109b512ad6f84273a75966",
+  "fleet_pub": "b304a0e12043d31cab25f4aae654dd7f52176a108ff0f9c2280cf390525d2798",
+  "psk": "b0402b1b02ff086eab4855836765b15695ba3646bbe45dca45d9b2a5f2cf9763",
+  "kind": 1,
+  "tag": "xvd"
+ },
+ "autostart": true
+}
